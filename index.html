@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Crystal Collector</h1></div>
+    <div class="numberToMatch">
+        <h2>Your Number
+            <span id="randomNumber"></span>
+        </h2>
+    </div>
+
+    <div class="winLossTrack">
+        <h2>Wins:
+            <span id="numberOfWins"></span>
+            Losses:
+            <span id="numberOfLosses"></span>
+        </h2>
+    </div>
+
+    <div class="gems">
+        <img src="assets/images/blue.png" class=gemImage id="one" alt="Blue Gem">
+        <img src="assets/images/green.png" class=gemImage id="two" alt="Green Gem">
+        <img src="assets/images/red.png" class=gemImage id="three" alt="Red Gem">
+        <img src="assets/images/yellow.png" class=gemImage id="four" alt="Yellow Gem">
+    </div>
+
+    <div class="userTotalScore">
+        <h2>Your Score is:
+            <span id="finalTotal"></span>
+        </h2>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
